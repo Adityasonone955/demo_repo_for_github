@@ -63,3 +63,11 @@ check status : git config --list
     3. git checkout <-branch name-> (to naviate in branch) 
     4. git checkout -b <-new branch name-> (to create new branch) 
     5. git branch -d <-branch name-> (to delete branch)
+
+# merge Branch and code 
+1st way 
+    1. git diff <-branch name->   (to compare commits, branches, files & more) 
+    2. git merge <-branch name-> (merge 2 branches) 
+
+2nd way 
+    In github account 
