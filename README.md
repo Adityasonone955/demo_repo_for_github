@@ -71,3 +71,5 @@ check status : git config --list
 
 2nd way 
     In github account 
+
+# git 
