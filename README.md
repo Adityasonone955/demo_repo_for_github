@@ -70,6 +70,8 @@ check status : git config --list
     2. git merge <-branch name-> (merge 2 branches) 
 
 2nd way 
-    In github account 
+    In github account ceate PR(pull request)
 
-# git 
+# Git to show romote data on local vs code 
+
+    1. add pull request = git pull origin main 
