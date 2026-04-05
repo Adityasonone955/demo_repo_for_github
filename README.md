@@ -75,3 +75,20 @@ check status : git config --list
 # Git to show romote data on local vs code 
 
     1. add pull request = git pull origin main 
+
+# Undoing changes 
+    1. Staged changes (means add kiya hai but commit nhi kiya)
+        git reset <-file_name->
+        git reset     (for all)
+
+    2. commited changes (add + commit kiya hai usko undo karn hai)
+        git reset HEAD~1  (Number is how many step you wana back to reset)
+
+    3. commited changes (for many commits)
+        git log  (for findig commit hash or commits)
+        git reset <-commit hash->
+        git reset --hard <-commit hash->  (with code getting reset)
+
+# Fork  
+    It is a rough copy of other repo 
+    
